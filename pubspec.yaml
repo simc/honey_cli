@@ -1,6 +1,6 @@
 name: honey_cli
 description: Command line utilities for honey
-version: 0.0.1
+version: 0.0.2
 homepage: https://honey.dev
 repository: https://github.com/leisim/honey
 
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter_tools:
     sdk: flutter
-  honey_core: ^0.0.1
-  honey_parser: ^0.0.1
+  honey_core: ^0.0.2
+  honey_parser: ^0.0.2
   freezed_annotation: ^1.0.0
   json_annotation: ^4.3.0
   collection: ^1.15.0
@@ -28,6 +28,10 @@ dependency_overrides:
   _fe_analyzer_shared: ^30.0.0
   freezed_annotation: ^1.0.0
   freezed: ^1.0.0
+#  honey_core:
+#    path: ../honey/packages/honey_core
+#  honey_parser:
+#    path: ../honey/packages/honey_parser
 
 executables:
   honeydaemon: honey_daemon
